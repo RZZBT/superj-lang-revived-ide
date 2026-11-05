@@ -1,0 +1,79 @@
+#include <iostream>
+
+
+// Accesibile oriunde
+// Main(params){code}
+// Accesibile doar in alte functii: 
+// Main(params){}!(functions); sau
+// Main(params){} for (functions)
+/* 
+   datatype name : value;
+   datatype name {value}
+
+    dataTypes:
+        - whl(size in bytes, default is 4) naturale
+        - int(size in bytes, default is 4) intregi
+        - rat(size in bytes, default is 4) rationale
+        - com(size in bytes, default is 4) complexe
+        - real(size in bytes, default is 4) reale
+        - const(size in bytes, default is 2) constante (se decise automat)
+        - nr(size in bytes, default is 4)
+
+        - txt
+        - char
+        - state/bool
+        
+    actions:
+        - if(state)(bool do_all = false)  \else()   \elif()   \(poti spefcica un nume pentru goto)
+
+        - while(condition) |(poti specifica un nume pentru goto)
+
+        - gotor name (te duce la label, dar dupa ce se executa statementul, revi inapoi)
+
+        - goto name (te dule la orice label, si nu te intoarce )
+
+        - break
+
+        - skip
+
+        - end
+
+    basic actions:
+
+        a+b adunare
+        a-b scadere
+        a/b inpartire(return int)
+        a%b modulo
+        a^(b) putere
+        |a| modul
+        <
+        >
+        <=
+        >=
+        !=
+        ==
+        &&
+        ||
+        
+    functii matematice
+
+        rat() rationalizeaza
+        getUp() ia numaratorul fractiei
+        getDown() ia numitorul fractiei
+        sqrt() radical
+        round() rotunjire
+        trunc() truncare
+
+    
+    etc
+
+        print()
+        daca pui , atunci va scrie si cealalta parte
+        daca pui ,, atunci va scrie pune o pauza intre elemente
+        daca pui . atunci se va inchide randul
+        take()
+         
+         
+
+*/
+int main(){}
